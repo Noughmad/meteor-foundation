@@ -5,6 +5,8 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery', 'client');
   
+  api.add_files('js/vendor/custom.modernizr.js', 'client');
+  
   api.add_files('js/foundation/foundation.js', 'client');
   api.add_files('js/foundation/foundation.alerts.js', 'client');
   api.add_files('js/foundation/foundation.clearing.js', 'client');
