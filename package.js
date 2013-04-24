@@ -5,6 +5,8 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery', 'client');
   
+  api.add_files('js/foundation/foundation.topbar.js');
+  
   api.add_files('js/foundation.min.js', 'client');
   api.add_files('css/foundation.min.css', 'client');
 });
