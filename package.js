@@ -23,6 +23,6 @@ Package.on_use(function (api) {
   api.add_files('js/foundation/foundation.tooltips.js', 'client');
   api.add_files('js/foundation/foundation.topbar.js', 'client');
   
-  api.add_files('css/normalize.css', 'client');
-  api.add_files('css/foundation.css', 'client');
+  api.add_files('scss/normalize.scss', 'client');
+  api.add_files('scss/foundation.scss', 'client');
 });
